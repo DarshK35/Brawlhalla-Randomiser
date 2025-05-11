@@ -1,0 +1,29 @@
+<div class="container">
+  <h1>Filter Weapon</h1>
+  <div class="filters">
+    <div
+      class="weapon"
+      *ngFor="let weaponFilter of weaponFilters"
+      [attr.active]="weaponFilter.active"
+      (click)="flipFilter(weaponFilter)"
+    >
+      <p class="weapon-name">{{ weaponFilter.weapon }}</p>
+    </div>
+  </div>
+  <h1>Legends</h1>
+  <div class="legends">
+    <div
+      class="legend"
+      *ngFor="let legend of legends"
+      [attr.active]="filteredLegends.includes(legend)"
+    >
+      <p class="legend-name">{{ legend.legend_name }}</p>
+    </div>
+  </div>
+
+  <h1>Random Legend</h1>
+  <div class="legend picked">
+    <p>{{ pickedLegend?.legend_name }}</p>
+  </div>
+  <button (click)="getRandom()">Pick one!</button>
+</div>

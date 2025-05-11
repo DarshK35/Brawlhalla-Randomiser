@@ -1,0 +1,64 @@
+.container {
+  margin: 5px 5%;
+  padding: 10px;
+  background-color: var(--ctp-base);
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.legends,
+.filters {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+  background-color: var(--ctp-surface0);
+  border-radius: 5px;
+}
+.legend {
+  min-width: 100px;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: var(--ctp-surface2);
+  border: 2px solid var(--ctp-green);
+  border-radius: 5px;
+}
+
+.filters {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  border-radius: 10px;
+  scrollbar-width: none;
+}
+.weapon {
+  flex-grow: 3;
+  flex: 0 0 auto;
+  min-width: 75px;
+  margin: 5px;
+  padding: 5px 15px;
+  background-color: var(--ctp-surface2);
+  border: 2px solid var(--ctp-sky);
+  border-radius: 15px;
+  white-space: nowrap;
+}
+
+.legend[active="false"],
+.weapon[active="false"] {
+  background-color: var(--ctp-surface1);
+  border-color: var(--ctp-red);
+}
+
+.picked {
+  background-color: var(--ctp-surface0);
+  max-width: 250px;
+}
+.picked p {
+  font-size: 20px;
+}

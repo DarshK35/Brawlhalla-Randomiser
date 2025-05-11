@@ -32,10 +32,10 @@ p {
 }
 
 .filters {
+  scrollbar-width: none;
   flex-wrap: nowrap;
   overflow-x: auto;
   border-radius: 10px;
-  scrollbar-width: none;
 }
 .weapon {
   flex-grow: 3;
@@ -53,12 +53,32 @@ p {
 .weapon[active="false"] {
   background-color: var(--ctp-surface1);
   border-color: var(--ctp-red);
+  color: var(--ctp-subtext0);
 }
 
 .picked {
-  background-color: var(--ctp-surface0);
   max-width: 250px;
+  background-color: var(--ctp-surface0);
 }
 .picked p {
   font-size: 20px;
+}
+
+button {
+  margin: 5px 20px;
+  padding: 5px 10px;
+  transition: 150ms;
+  background-color: var(--ctp-surface1);
+  border: 2px solid var(--ctp-blue);
+  border-radius: 5px;
+  font-size: 14px;
+  color: var(--ctp-text);
+}
+button:hover {
+  background-color: var(--ctp-surface2);
+  border-color: var(--ctp-sapphire);
+}
+button:active {
+  border-color: var(--ctp-green);
+  color: var(--ctp-subtext0);
 }

@@ -14,9 +14,16 @@ import { ThemeService } from './services/theme.service';
 })
 export class AppComponent {
   title = 'brawlhalla Randomiser';
+  darkTheme: boolean = true;
 
   public constructor(private themeService: ThemeService) {
-    this.themeService.loadTheme('catppuccin-mocha');
+    this.themeService.loadTheme('tokyonight-night');
+  }
+
+  toggleTheme() {
+    this.darkTheme = !this.darkTheme;
+
+    this.switchTheme(this.darkTheme? 'tokyonight-night': 'tokyonight-day');
   }
 
   switchTheme(themeName: string) {

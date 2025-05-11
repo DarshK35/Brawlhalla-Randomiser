@@ -7,3 +7,7 @@ body {
   background-color: var(--ctp-crust);
   color: var(--ctp-text);
 }
+
+* {
+  transition: 250ms ease;
+}

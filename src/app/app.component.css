@@ -17,6 +17,26 @@
   flex: 1;
 }
 .header .header-right {
-  flex: 1;
+  flex: 0 0 auto;
   text-align: end;
+}
+
+/* Theme Toggle css */
+.header button {
+  margin: 5px 20px;
+  padding: 5px 10px;
+  transition: 150ms;
+  background-color: var(--ctp-surface1);
+  border: 2px solid var(--ctp-blue);
+  border-radius: 5px;
+  font-size: 14px;
+  color: var(--ctp-text);
+}
+.header button:hover {
+  background-color: var(--ctp-surface2);
+  border-color: var(--ctp-sapphire);
+}
+.header button:active {
+  border-color: var(--ctp-green);
+  color: var(--ctp-subtext0);
 }

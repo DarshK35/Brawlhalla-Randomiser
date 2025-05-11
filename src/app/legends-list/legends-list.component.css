@@ -26,6 +26,7 @@ p {
   min-width: 100px;
   margin: 10px;
   padding: 10px 20px;
+  transition: 150ms;
   background-color: var(--ctp-surface2);
   border: 2px solid var(--ctp-green);
   border-radius: 5px;
@@ -43,7 +44,9 @@ p {
   min-width: 75px;
   margin: 5px;
   padding: 5px 15px;
+  transition: 150ms;
   background-color: var(--ctp-surface2);
+  cursor: pointer;
   border: 2px solid var(--ctp-sky);
   border-radius: 15px;
   white-space: nowrap;

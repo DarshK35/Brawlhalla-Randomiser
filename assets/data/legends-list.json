@@ -1,0 +1,392 @@
+[
+  {
+    "legend_id": "1",
+    "legend_name": "Ada",
+    "weapon_one": "Blasters",
+    "weapon_two": "Spear"
+  },
+  {
+    "legend_id": "2",
+    "legend_name": "Arcadia",
+    "weapon_one": "Greatsword",
+    "weapon_two": "Spear"
+  },
+  {
+    "legend_id": "3",
+    "legend_name": "Artemis",
+    "weapon_one": "Lance",
+    "weapon_two": "Scythe"
+  },
+  {
+    "legend_id": "4",
+    "legend_name": "Asuri",
+    "weapon_one": "Katars",
+    "weapon_two": "Sword"
+  },
+  {
+    "legend_id": "5",
+    "legend_name": "Azoth",
+    "weapon_one": "Axe",
+    "weapon_two": "Bow"
+  },
+  {
+    "legend_id": "6",
+    "legend_name": "Barraza",
+    "weapon_one": "Axe",
+    "weapon_two": "Blasters"
+  },
+  {
+    "legend_id": "7",
+    "legend_name": "Bödvar",
+    "weapon_one": "Hammer",
+    "weapon_two": "Sword"
+  },
+  {
+    "legend_id": "8",
+    "legend_name": "Brynn",
+    "weapon_one": "Axe",
+    "weapon_two": "Spear"
+  },
+  {
+    "legend_id": "9",
+    "legend_name": "Caspian",
+    "weapon_one": "Gauntlets",
+    "weapon_two": "Katars"
+  },
+  {
+    "legend_id": "10",
+    "legend_name": "Cassidy",
+    "weapon_one": "Blasters",
+    "weapon_two": "Hammer"
+  },
+  {
+    "legend_id": "11",
+    "legend_name": "Cross",
+    "weapon_one": "Blasters",
+    "weapon_two": "Gauntlets"
+  },
+  {
+    "legend_id": "12",
+    "legend_name": "Diana",
+    "weapon_one": "Blasters",
+    "weapon_two": "Bow"
+  },
+  {
+    "legend_id": "13",
+    "legend_name": "Dusk",
+    "weapon_one": "Orb",
+    "weapon_two": "Spear"
+  },
+  {
+    "legend_id": "14",
+    "legend_name": "Ember",
+    "weapon_one": "Bow",
+    "weapon_two": "Katars"
+  },
+  {
+    "legend_id": "15",
+    "legend_name": "Ezio",
+    "weapon_one": "Orb",
+    "weapon_two": "Sword"
+  },
+  {
+    "legend_id": "16",
+    "legend_name": "Fait",
+    "weapon_one": "Orb",
+    "weapon_two": "Scythe"
+  },
+  {
+    "legend_id": "17",
+    "legend_name": "Gnash",
+    "weapon_one": "Hammer",
+    "weapon_two": "Spear"
+  },
+  {
+    "legend_id": "18",
+    "legend_name": "Hattori",
+    "weapon_one": "Spear",
+    "weapon_two": "Sword"
+  },
+  {
+    "legend_id": "19",
+    "legend_name": "Imugi",
+    "weapon_one": "Axe",
+    "weapon_two": "Greatsword"
+  },
+  {
+    "legend_id": "20",
+    "legend_name": "Isaiah",
+    "weapon_one": "Blasters",
+    "weapon_two": "Cannon"
+  },
+  {
+    "legend_id": "21",
+    "legend_name": "Jaeyun",
+    "weapon_one": "Greatsword",
+    "weapon_two": "Sword"
+  },
+  {
+    "legend_id": "22",
+    "legend_name": "Jhala",
+    "weapon_one": "Axe",
+    "weapon_two": "Sword"
+  },
+  {
+    "legend_id": "23",
+    "legend_name": "Jiro",
+    "weapon_one": "Scythe",
+    "weapon_two": "Sword"
+  },
+  {
+    "legend_id": "24",
+    "legend_name": "Kaya",
+    "weapon_one": "Bow",
+    "weapon_two": "Spear"
+  },
+  {
+    "legend_id": "25",
+    "legend_name": "King Zuva",
+    "weapon_one": "Battle Boots",
+    "weapon_two": "Hammer"
+  },
+  {
+    "legend_id": "26",
+    "legend_name": "Koji",
+    "weapon_one": "Bow",
+    "weapon_two": "Sword"
+  },
+  {
+    "legend_id": "27",
+    "legend_name": "Kor",
+    "weapon_one": "Gauntlets",
+    "weapon_two": "Hammer"
+  },
+  {
+    "legend_id": "28",
+    "legend_name": "Lin Fei",
+    "weapon_one": "Cannon",
+    "weapon_two": "Katars"
+  },
+  {
+    "legend_id": "29",
+    "legend_name": "Loki",
+    "weapon_one": "Katars",
+    "weapon_two": "Scythe"
+  },
+  {
+    "legend_id": "30",
+    "legend_name": "Lucien",
+    "weapon_one": "Blasters",
+    "weapon_two": "Katars"
+  },
+  {
+    "legend_id": "31",
+    "legend_name": "Magyar",
+    "weapon_one": "Hammer",
+    "weapon_two": "Greatsword"
+  },
+  {
+    "legend_id": "32",
+    "legend_name": "Mako",
+    "weapon_one": "Greatsword",
+    "weapon_two": "Katars"
+  },
+  {
+    "legend_id": "33",
+    "legend_name": "Mirage",
+    "weapon_one": "Scythe",
+    "weapon_two": "Spear"
+  },
+  {
+    "legend_id": "34",
+    "legend_name": "Mordex",
+    "weapon_one": "Gauntlets",
+    "weapon_two": "Scythe"
+  },
+  {
+    "legend_id": "35",
+    "legend_name": "Munin",
+    "weapon_one": "Bow",
+    "weapon_two": "Scythe"
+  },
+  {
+    "legend_id": "36",
+    "legend_name": "Queen Nai",
+    "weapon_one": "Katars",
+    "weapon_two": "Spear"
+  },
+  {
+    "legend_id": "37",
+    "legend_name": "Nix",
+    "weapon_one": "Blasters",
+    "weapon_two": "Scythe"
+  },
+  {
+    "legend_id": "38",
+    "legend_name": "Onyx",
+    "weapon_one": "Cannon",
+    "weapon_two": "Gauntlets"
+  },
+  {
+    "legend_id": "39",
+    "legend_name": "Orion",
+    "weapon_one": "Lance",
+    "weapon_two": "Spear"
+  },
+  {
+    "legend_id": "40",
+    "legend_name": "Petra",
+    "weapon_one": "Gauntlets",
+    "weapon_two": "Orb"
+  },
+  {
+    "legend_id": "41",
+    "legend_name": "Priya",
+    "weapon_one": "Chakram",
+    "weapon_two": "Sword"
+  },
+  {
+    "legend_id": "42",
+    "legend_name": "Ragnir",
+    "weapon_one": "Axe",
+    "weapon_two": "Katars"
+  },
+  {
+    "legend_id": "43",
+    "legend_name": "Rayman",
+    "weapon_one": "Axe",
+    "weapon_two": "Gauntlets"
+  },
+  {
+    "legend_id": "44",
+    "legend_name": "Red Raptor",
+    "weapon_one": "Battle Boots",
+    "weapon_two": "Orb"
+  },
+  {
+    "legend_id": "45",
+    "legend_name": "Reno",
+    "weapon_one": "Blasters",
+    "weapon_two": "Orb"
+  },
+  {
+    "legend_id": "46",
+    "legend_name": "Scarlet",
+    "weapon_one": "Hammer",
+    "weapon_two": "Lance"
+  },
+  {
+    "legend_id": "47",
+    "legend_name": "Sentinel",
+    "weapon_one": "Hammer",
+    "weapon_two": "Katars"
+  },
+  {
+    "legend_id": "48",
+    "legend_name": "Seven",
+    "weapon_one": "Cannon",
+    "weapon_two": "Spear"
+  },
+  {
+    "legend_id": "49",
+    "legend_name": "Sidra",
+    "weapon_one": "Cannon",
+    "weapon_two": "Sword"
+  },
+  {
+    "legend_id": "50",
+    "legend_name": "Sir Roland",
+    "weapon_one": "Lance",
+    "weapon_two": "Sword"
+  },
+  {
+    "legend_id": "51",
+    "legend_name": "Teros",
+    "weapon_one": "Axe",
+    "weapon_two": "Hammer"
+  },
+  {
+    "legend_id": "52",
+    "legend_name": "Tezca",
+    "weapon_one": "Battle Boots",
+    "weapon_two": "Gauntlets"
+  },
+  {
+    "legend_id": "53",
+    "legend_name": "Thatch",
+    "weapon_one": "Blasters",
+    "weapon_two": "Sword"
+  },
+  {
+    "legend_id": "54",
+    "legend_name": "Thea",
+    "weapon_one": "Battle Boots",
+    "weapon_two": "Lance"
+  },
+  {
+    "legend_id": "55",
+    "legend_name": "Thor",
+    "weapon_one": "Hammer",
+    "weapon_two": "Orb"
+  },
+  {
+    "legend_id": "56",
+    "legend_name": "Ulgrim",
+    "weapon_one": "Axe",
+    "weapon_two": "Lance"
+  },
+  {
+    "legend_id": "57",
+    "legend_name": "Val",
+    "weapon_one": "Gauntlets",
+    "weapon_two": "Sword"
+  },
+  {
+    "legend_id": "58",
+    "legend_name": "Vector",
+    "weapon_one": "Bow",
+    "weapon_two": "Lance"
+  },
+  {
+    "legend_id": "59",
+    "legend_name": "Volkov",
+    "weapon_one": "Axe",
+    "weapon_two": "Scythe"
+  },
+  {
+    "legend_id": "60",
+    "legend_name": "Vivi",
+    "weapon_one": "Battle Boots",
+    "weapon_two": "Blasters"
+  },
+  {
+    "legend_id": "61",
+    "legend_name": "Lord Vraxx",
+    "weapon_one": "Blasters",
+    "weapon_two": "Lance"
+  },
+  {
+    "legend_id": "62",
+    "legend_name": "Wu Shang",
+    "weapon_one": "Gauntlets",
+    "weapon_two": "Spear"
+  },
+  {
+    "legend_id": "63",
+    "legend_name": "Xull",
+    "weapon_one": "Axe",
+    "weapon_two": "Cannon"
+  },
+  {
+    "legend_id": "64",
+    "legend_name": "Yumiko",
+    "weapon_one": "Bow",
+    "weapon_two": "Hammer"
+  },
+  {
+    "legend_id": "65",
+    "legend_name": "Zariel",
+    "weapon_one": "Bow",
+    "weapon_two": "Gauntlets"
+  }
+]

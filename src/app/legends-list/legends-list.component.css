@@ -1,7 +1,8 @@
 .container {
   margin: 5px 5%;
   padding: 10px;
-  background-color: var(--ctp-base);
+  border-radius: 10px;
+  background-color: var(--ctp-surface0);
 }
 h1 {
   margin-top: 20px;
@@ -26,10 +27,17 @@ p {
   min-width: 100px;
   margin: 10px;
   padding: 10px 20px;
-  transition: 150ms;
-  background-color: var(--ctp-surface2);
-  border: 2px solid var(--ctp-green);
+  transition: all 150ms ease;
+
+  background:
+    linear-gradient(var(--background) 0 0) padding-box,
+    linear-gradient(to right, var(--border-left) 0%, var(--border-right) 100%) border-box;
+  border: 2px solid transparent;
   border-radius: 5px;
+
+  --background: var(--ctp-surface1);
+  --border-left: var(--ctp-green);
+  --border-right: var(--ctp-teal);
 }
 
 .filters {
@@ -44,18 +52,25 @@ p {
   min-width: 75px;
   margin: 5px;
   padding: 5px 15px;
-  transition: 150ms;
-  background-color: var(--ctp-surface2);
+  transition: all 150ms ease;
   cursor: pointer;
-  border: 2px solid var(--ctp-sky);
+  background:
+    linear-gradient(var(--background) 0 0) padding-box,
+    linear-gradient(to right, var(--border-left) 0%, var(--border-right) 100%) border-box;
+  border: 2px solid transparent;
   border-radius: 15px;
   white-space: nowrap;
+
+  --background: var(--ctp-surface1);
+  --border-left: var(--ctp-green);
+  --border-right: var(--ctp-teal);
 }
 
 .legend[active="false"],
 .weapon[active="false"] {
-  background-color: var(--ctp-surface1);
-  border-color: var(--ctp-red);
+  --background: var(--ctp-surface0);
+  --border-left: var(--ctp-red);
+  --border-right: var(--ctp-maroon);
   color: var(--ctp-subtext0);
 }
 

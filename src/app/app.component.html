@@ -2,10 +2,28 @@
   <div class="header-left">
     <p class="title-text">Brawlhalla Randomiser</p>
   </div>
-  <div style="flex: 0.5; text-align: end;">
-      <button (click)="toggleTheme()">
-        Toggle Theme
-      </button>
+  <div style="flex: 0.5; text-align: end">
+    <svg class="icon" viewport="0 0 40 40" (click)="toggleTheme()">
+      <defs>
+        <mask id="moon-shape">
+          <rect x="0" y="0" width="40" height="40" fill="white" />
+          <circle
+            class="moon-hole"
+            cx="40"
+            cy="0"
+            fill="black"
+            [attr.theme]="darkTheme"
+          />
+        </mask>
+      </defs>
+      <circle
+        class="circle"
+        cx="20"
+        cy="20"
+        mask="url(#moon-shape)"
+        [attr.theme]="darkTheme"
+      />
+    </svg>
   </div>
   <div class="header-right">
     <p>Made with ♥ by CrackJack</p>

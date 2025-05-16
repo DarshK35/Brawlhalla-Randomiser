@@ -17,13 +17,13 @@ export class AppComponent {
   darkTheme: boolean = true;
 
   public constructor(private themeService: ThemeService) {
-    this.themeService.loadTheme('tokyonight-night');
+    this.themeService.loadTheme('catppuccin-mocha');
   }
 
   toggleTheme() {
     this.darkTheme = !this.darkTheme;
 
-    this.switchTheme(this.darkTheme? 'tokyonight-night': 'tokyonight-day');
+    this.switchTheme(this.darkTheme? 'catppuccin-mocha': 'catppuccin-latte');
   }
 
   switchTheme(themeName: string) {

@@ -5,11 +5,12 @@
   top: 0;
 
   padding: 20px;
-  font-size: 20px;
+  font-size: 24px;
 }
 .header p {
   font-weight: bold;
   padding: 0;
+  padding-top: 4px;
   margin: 0;
 }
 
@@ -21,22 +22,33 @@
   text-align: end;
 }
 
-/* Theme Toggle css */
-.header button {
-  margin: 5px 20px;
-  padding: 5px 10px;
-  transition: 150ms;
-  background-color: var(--ctp-surface1);
-  border: 2px solid var(--ctp-blue);
-  border-radius: 5px;
-  font-size: 14px;
-  color: var(--ctp-text);
+/* Theme Toggle SVG */
+.icon {
+  width: 40px;
+  height: 40px;
+  padding-right: 20px;
+  transition: all 0.5s ease;
 }
-.header button:hover {
-  background-color: var(--ctp-surface2);
-  border-color: var(--ctp-sapphire);
+
+.icon .circle {
+  fill: var(--ctp-text);
 }
-.header button:active {
-  border-color: var(--ctp-green);
-  color: var(--ctp-subtext0);
+.icon .circle[theme="true"] {
+  r: 15px;
 }
+.icon .circle[theme="false"] {
+  r: 15px;
+  fill: var(--ctp-base);
+  stroke: var(--ctp-text);
+  stroke-width: 5px;
+}
+
+.icon .moon-hole[theme="false"] {
+  transform: translate(0px, 0px);
+  r: 0px;
+}
+.icon .moon-hole[theme="true"] {
+  transform: translate(-7.5px, 12.5px);
+  r: 15px;
+}
+

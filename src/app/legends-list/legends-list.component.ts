@@ -87,9 +87,18 @@ export class LegendsListComponent implements OnInit {
       return;
     }
 
-    const availableLegends = this.legends.filter(
+    var availableLegends = this.filteredLegends.filter(
       (legend) => !this.prevQueue.includes(legend.legend_id)
     );
+
+    // Reset previous queue if no legends available
+    if(availableLegends.length < 1) {
+      availableLegends = this.filteredLegends;
+      this.prevQueue = [];
+    }
+
+    console.log(this.prevQueue);
+    console.log(availableLegends);
     const randomIdx = Math.floor(Math.random() * availableLegends.length);
     this.pickedLegend = availableLegends[randomIdx];
 

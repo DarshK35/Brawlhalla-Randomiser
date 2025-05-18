@@ -30,14 +30,12 @@ p {
   transition: all 150ms ease;
 
   background:
-    linear-gradient(var(--background) 0 0) padding-box,
-    linear-gradient(to right, var(--border-left) 0%, var(--border-right) 100%) border-box;
+    linear-gradient(to right, var(--ctp-surface1) 0%, var(--ctp-surface1) 49%, var(--ctp-surface0) 51%, var(--ctp-surface0) 100%) padding-box,
+    linear-gradient(to right, var(--ctp-green) 0%, var(--ctp-teal) 49%, var(--ctp-red) 51%, var(--ctp-maroon) 100%) border-box;
+  background-size: 200% 100%;
+  background-position-x: 0%;
   border: 2px solid transparent;
   border-radius: 5px;
-
-  --background: var(--ctp-surface1);
-  --border-left: var(--ctp-green);
-  --border-right: var(--ctp-teal);
 }
 
 .filters {
@@ -55,22 +53,18 @@ p {
   transition: all 150ms ease;
   cursor: pointer;
   background:
-    linear-gradient(var(--background) 0 0) padding-box,
-    linear-gradient(to right, var(--border-left) 0%, var(--border-right) 100%) border-box;
+    linear-gradient(to right, var(--ctp-surface1) 0%, var(--ctp-surface1) 49%, var(--ctp-surface0) 51%, var(--ctp-surface0) 100%) padding-box,
+    linear-gradient(to right, var(--ctp-green) 0%, var(--ctp-teal) 49%, var(--ctp-red) 51%, var(--ctp-maroon) 100%) border-box;
+  background-size: 200% 100%;
+  background-position-x: 0%;
   border: 2px solid transparent;
   border-radius: 15px;
   white-space: nowrap;
-
-  --background: var(--ctp-surface1);
-  --border-left: var(--ctp-green);
-  --border-right: var(--ctp-teal);
 }
 
 .legend[active="false"],
 .weapon[active="false"] {
-  --background: var(--ctp-surface0);
-  --border-left: var(--ctp-red);
-  --border-right: var(--ctp-maroon);
+  background-position-x: 100%;
   color: var(--ctp-subtext0);
 }
 

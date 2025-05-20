@@ -32,27 +32,13 @@ p {
   margin: 5px;
   padding: 5px 15px;
   transition: all 150ms ease;
+  font-weight: 600;
 
-  background: linear-gradient(
-        to right,
-        var(--ctp-surface1) 0%,
-        var(--ctp-surface1) 49%,
-        var(--ctp-surface0) 51%,
-        var(--ctp-surface0) 100%
-      )
-      padding-box,
-    linear-gradient(
-        to right,
-        var(--ctp-green) 0%,
-        var(--ctp-teal) 49%,
-        var(--ctp-red) 51%,
-        var(--ctp-maroon) 100%
-      )
-      border-box;
-  background-size: 200% 100%;
-  background-position-x: 0%;
   border: 2px solid transparent;
   border-radius: 5px;
+  border-color: var(--ctp-green);
+  background-color: var(--ctp-surface1);
+  color: var(--ctp-text);
 }
 
 .legend {
@@ -70,16 +56,15 @@ p {
 
 .legend[active="false"],
 .weapon[active="false"] {
-  background-position-x: 100%;
+  border-color: var(--ctp-red);
+  background-color: var(--ctp-surface0);
   color: var(--ctp-subtext0);
 }
 
-.picked {
-  max-width: 250px;
-  background-color: var(--ctp-surface0);
-}
-.picked p {
-  font-size: 20px;
+.legend[picked="true"] {
+  border-color: var(--ctp-text);
+  background-color: var(--ctp-blue);
+  color: var(--ctp-surface0);
 }
 
 button {

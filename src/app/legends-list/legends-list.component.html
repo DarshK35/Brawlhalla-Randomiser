@@ -14,7 +14,12 @@
   <table class="legends">
     <tr *ngFor="let itRow of [].constructor(4); let i = index">
       <td *ngFor="let itCol of [].constructor(17); let j = index">
-        <div class="legend" *ngIf="getLegend([i, j]).legend_name !== ''" [attr.active]="filteredLegends.includes(getLegend([i, j]))">
+        <div
+          class="legend"
+          *ngIf="getLegend([i, j]).legend_name !== ''"
+          [attr.active]="filteredLegends.includes(getLegend([i, j]))"
+          [attr.picked]="getLegend([i, j]).legend_id === pickedLegend?.legend_id"
+        >
           <p class="legend-name">
             {{ getLegend([i, j]).legend_name }}
           </p>
@@ -23,9 +28,5 @@
     </tr>
   </table>
 
-  <h1>Random Legend</h1>
-  <div class="legend picked">
-    <p>{{ pickedLegend?.legend_name }}</p>
-  </div>
-  <button (click)="getRandom()">Pick one!</button>
+  <button (click)="getRandom()">Pick a Random Legend</button>
 </div>

@@ -13,6 +13,12 @@
   padding-top: 4px;
   margin: 0;
 }
+.footer {
+  position:static;
+  text-align: center;
+  font-size: 20px;
+  bottom: 0;
+}
 
 .header .header-left {
   flex: 1;

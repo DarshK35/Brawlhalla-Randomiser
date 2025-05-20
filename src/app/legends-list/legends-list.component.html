@@ -11,7 +11,8 @@
     </div>
   </div>
   <h1>Legends</h1>
-  <table class="legends">
+  <div class="legends">
+    <table>
     <tr *ngFor="let itRow of [].constructor(4); let i = index">
       <td *ngFor="let itCol of [].constructor(17); let j = index">
         <div
@@ -27,6 +28,8 @@
       </td>
     </tr>
   </table>
+  </div>
+
 
   <button (click)="getRandom()">Pick a Random Legend</button>
 </div>

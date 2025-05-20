@@ -18,6 +18,8 @@ p {
   margin: 10px;
   background-color: var(--ctp-surface0);
   border-radius: 5px;
+  scrollbar-width: none;
+  overflow-x: auto;
 }
 .filters {
   display: flex;
@@ -34,7 +36,7 @@ p {
   transition: all 150ms ease;
   font-weight: 600;
 
-  border: 2px solid transparent;
+  border: 2px solid;
   border-radius: 5px;
   border-color: var(--ctp-green);
   background-color: var(--ctp-surface1);
@@ -44,6 +46,7 @@ p {
 .legend {
   min-width: 0px;
   margin: 0px;
+  white-space: nowrap;
 }
 .weapon {
   flex: 0 0 auto;

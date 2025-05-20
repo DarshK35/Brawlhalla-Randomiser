@@ -82,6 +82,16 @@ export class LegendsListComponent implements OnInit {
     }
   }
 
+  getLegend(pos: number[]): Legend {
+    let ret = undefined;
+    try {
+      ret = this.legends.find(legend => legend.pos.toString() === pos.toString());
+    } catch (error) {
+      return new Legend();
+    }
+    return (ret == undefined)? new Legend(): ret;
+  }
+
   getRandom() {
     if (!this.filteredLegends.length) {
       return;

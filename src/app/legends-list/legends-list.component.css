@@ -14,52 +14,58 @@ p {
   padding: 0;
 }
 
-.legends,
-.filters {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.legends, .filters {
   margin: 10px;
   background-color: var(--ctp-surface0);
   border-radius: 5px;
 }
-.legend {
-  min-width: 100px;
-  margin: 10px;
-  padding: 10px 20px;
-  transition: all 150ms ease;
-
-  background:
-    linear-gradient(to right, var(--ctp-surface1) 0%, var(--ctp-surface1) 49%, var(--ctp-surface0) 51%, var(--ctp-surface0) 100%) padding-box,
-    linear-gradient(to right, var(--ctp-green) 0%, var(--ctp-teal) 49%, var(--ctp-red) 51%, var(--ctp-maroon) 100%) border-box;
-  background-size: 200% 100%;
-  background-position-x: 0%;
-  border: 2px solid transparent;
-  border-radius: 5px;
-}
-
 .filters {
+  display: flex;
+  flex-direction: row;
   scrollbar-width: none;
   flex-wrap: nowrap;
   overflow-x: auto;
   border-radius: 10px;
 }
-.weapon {
-  flex-grow: 3;
-  flex: 0 0 auto;
-  min-width: 75px;
+
+.legend, .weapon {
   margin: 5px;
   padding: 5px 15px;
   transition: all 150ms ease;
-  cursor: pointer;
-  background:
-    linear-gradient(to right, var(--ctp-surface1) 0%, var(--ctp-surface1) 49%, var(--ctp-surface0) 51%, var(--ctp-surface0) 100%) padding-box,
-    linear-gradient(to right, var(--ctp-green) 0%, var(--ctp-teal) 49%, var(--ctp-red) 51%, var(--ctp-maroon) 100%) border-box;
+
+  background: linear-gradient(
+        to right,
+        var(--ctp-surface1) 0%,
+        var(--ctp-surface1) 49%,
+        var(--ctp-surface0) 51%,
+        var(--ctp-surface0) 100%
+      )
+      padding-box,
+    linear-gradient(
+        to right,
+        var(--ctp-green) 0%,
+        var(--ctp-teal) 49%,
+        var(--ctp-red) 51%,
+        var(--ctp-maroon) 100%
+      )
+      border-box;
   background-size: 200% 100%;
   background-position-x: 0%;
   border: 2px solid transparent;
-  border-radius: 15px;
+  border-radius: 5px;
+}
+
+.legend {
+  min-width: 0px;
+  margin: 0px;
+}
+.weapon {
+  flex: 0 0 auto;
+  min-width: 25px;
+  cursor: pointer;
   white-space: nowrap;
+
+  border-radius: 15px;
 }
 
 .legend[active="false"],

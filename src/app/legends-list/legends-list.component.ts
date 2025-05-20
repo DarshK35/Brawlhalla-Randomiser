@@ -97,24 +97,30 @@ export class LegendsListComponent implements OnInit {
       return;
     }
 
+    // Reset previous queue if no legends available
     var availableLegends = this.filteredLegends.filter(
       (legend) => !this.prevQueue.includes(legend.legend_id)
     );
-
-    // Reset previous queue if no legends available
     if(availableLegends.length < 1) {
       availableLegends = this.filteredLegends;
       this.prevQueue = [];
     }
 
-    console.log(this.prevQueue);
-    console.log(availableLegends);
     const randomIdx = Math.floor(Math.random() * availableLegends.length);
     this.pickedLegend = availableLegends[randomIdx];
 
+    // process queue
     this.prevQueue.push(this.pickedLegend.legend_id);
     if (this.prevQueue.length > this.queueMaxLimit) {
       this.prevQueue.shift();
     }
+
+    // Scroll to legend
+    const legendElement = document.getElementById('legend-' + this.pickedLegend?.legend_id);
+    legendElement?.scrollIntoView({
+      behavior: 'smooth',
+      block: 'center',
+      inline: 'center'
+    });
   }
 }
